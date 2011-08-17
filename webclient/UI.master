@@ -1,0 +1,44 @@
+﻿<%@ Master Language="VB" CodeFile="UI.master.vb" Inherits="UI" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title></title>
+    <meta http-equiv="description" content="" />
+    <meta http-equiv="keywords" content="" />
+    <link rel="stylesheet" type="text/css" href="~/_assets/css/ui.css" />
+    <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server" class="sbForms">
+        <asp:ScriptManager runat="server" ID="Scriptmanager1" AsyncPostBackTimeOut="600">
+            <Scripts>
+                
+            </Scripts>
+        </asp:ScriptManager>
+	    <div id="sbCC2">
+            <!-- <asp:ScriptReference Path="~/_assets/js/jquery-1.5.min.js" /> -->
+    	    <div id="sbCC2logo"><img src="_assets/img/earlyimpact.gif" alt="SubscriptionBridge" /></div>
+        
+	        <div id="sbCC2mainShadow">
+
+                <div id="sbCC2main">     
+                
+                <div id="menuContainer">
+                    <div id="menu">
+                                <a href="Default.aspx">Main Menu</a>
+                    </div> 
+                </div>     
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+                </div>
+
+	        </div>
+        
+            <div id="sbCC2footer">
+
+            </div>
+    
+        </div>
+    </form>
+</body>
+</html>

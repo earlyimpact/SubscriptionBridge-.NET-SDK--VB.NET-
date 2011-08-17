@@ -1,0 +1,351 @@
+@charset "utf-8";
+
+/* SubscriptionBridge Customer Center - 2010 Design */
+
+    html {
+        overflow-Y: scroll;
+    }
+    
+    body {
+		padding: 0;
+		margin: 0;
+		background-color: #FFF;
+		font-family: Tahoma, Geneva, sans-serif;
+		font-size: 14px;
+	}
+	
+	#sbCC2 {
+		margin: 0 auto 20px auto;
+		width: 942px;
+	}
+	
+		#sbCC2 img {
+			border: none;
+		}
+		
+		#sbCC2 a:link {
+			color: #39F;
+			text-decoration: none;
+		}
+		
+		#sbCC2 a:visited {
+			color: #39F;
+            text-decoration: none;
+		}
+		
+		#sbCC2 a:hover {
+			color: #39F;
+            text-decoration: underline;
+		}
+	
+		#sbCC2logo {
+			padding: 10px;
+			text-align: left;
+			z-index:100;
+		}	
+		
+	/* Main content area */
+
+		#sbCC2mainShadow {
+			background-color: #F1F1F1;
+			padding: 10px;
+			-moz-border-radius: 5px;
+			-webkit-border-radius: 5px;
+			border-radius: 5px;
+		}
+
+		#sbCC2main {
+			width: 890px;
+			background-color: #FFF;
+			border: 1px solid #CCC;
+			padding: 15px;
+			min-height: 400px;
+			color: #666;
+			-moz-border-radius: 5px;
+			-webkit-border-radius: 5px;
+			border-radius: 5px;
+		}
+		
+    /* Styling generic tags */
+		
+		#sbCC2main h1 {
+			height: 40px;
+			vertical-align: middle;
+			padding-left: 10px;
+			background-color: #555;
+			color: #FFF;
+			font-size: 28px;
+			font-weight: normal;
+			margin: 0 0 20px 0;
+			-moz-border-radius: 5px;
+			-webkit-border-radius: 5px;
+			border-radius: 5px;
+		}
+		
+		#sbCC2main h2 {
+			margin: 0 10px 15px 0px;
+			padding-bottom: 5px;
+			border-bottom: 1px dashed #CCC;
+			color: #777;
+			font-size: 20px;
+			font-weight: normal;
+		}
+		
+		#sbCC2main p {
+			margin: 0 0 5px 0;
+		}
+		
+		/*		
+		#sbCC2main a:link {
+			color: <%=sbv_strLinkColor%>;
+            text-decoration: none;
+		}
+		
+		#sbCC2main a:visited {
+			color: <%=sbv_strLinkColorV%>;
+            text-decoration: none;
+		}
+		
+		#sbCC2main a:hover {
+			color: <%=sbv_strLinkColorH%>;
+            text-decoration: none;
+		}
+		*/
+
+		/* Spacing for generic DIVs */
+		#sbCC2main .sbSpacer {
+			margin-top: 6px;
+		}
+
+		/* Style for HR */
+		#sbCC2main .sbHR {
+			margin: 15px 10px 15px 10px;
+			padding: 0;
+			border: none;
+			border-bottom: 1px dashed #CCC;
+		}
+		
+		#sbCC2main .sbHR2 {
+			margin: 15px 0px 15px 0px;
+			padding: 0;
+			border: none;
+			border-bottom: 1px dashed #CCC;
+		}
+
+
+	/* Menu */
+	#menuContainer { 
+		display:inline-block; 
+		float: right; 
+		z-index: 1000;
+	}
+	#menu {
+		font-size: 12px;
+            padding: 12px 20px 0 0;
+            color: #FFF;
+	}
+
+        #menu a {
+            color: #FFF !important;
+        }
+        
+        #menu a:hover {
+            text-decoration: underline !important;
+        }
+        
+    /* Generic Tables */
+    #sbCC2main .sbCC2table {
+    	margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    
+        #sbCC2main .sbCC2table td {
+            padding: 5px;
+            border-spacing: 0;
+        }
+
+
+    /* Forms */
+	
+	#sbCC2main .sbForms {
+		margin: 10px;
+	}
+	
+		#sbCC2main table {
+			margin: 0px;
+			padding: 0px;
+		}
+		
+		#sbCC2main table td.leftCell {
+			padding-bottom: 10px;
+			text-align: right;
+			width: 20%;
+			font-size: 14px;
+		}
+		
+		#sbCC2main table td.rightCell {
+			padding-bottom: 10px;
+			text-align: left;
+			width: 80%;
+			font-size: 14px;
+		}
+	
+		#sbCC2main .sbInputField {
+			border: 1px #ccc solid;
+			background-color: #f1f1f1;
+			color: #666; 
+			padding: 5px; 
+			font-size: 15px;
+			-moz-border-radius: 5px;
+			-webkit-border-radius: 5px;
+			border-radius: 5px;
+		}
+		
+		#sbCC2main .sbTextField {
+			border: 1px #ccc solid;
+			background-color: #f1f1f1;
+			color: #666; 
+			padding: 5px; 
+			font-size: 15px;
+			-moz-border-radius: 5px;
+			-webkit-border-radius: 5px;
+			border-radius: 5px;
+		}
+		
+		#sbCC2main .sbSelectField {
+			border: 1px #ccc solid;
+			background-color: #f1f1f1;
+			color: #666; 
+			padding: 5px; 
+			font-size: 15px;
+			-moz-border-radius: 5px;
+			-webkit-border-radius: 5px;
+			border-radius: 5px;
+		}
+		
+		#sbCC2main .sbFormButton {
+			border: 1px #ccc solid;
+			background-color: #FFF;
+			color: #777; 
+			padding: 5px; 
+			font-size: 15px;
+			-moz-border-radius: 5px;
+			-webkit-border-radius: 5px;
+			border-radius: 5px;
+		}
+		
+		#sbCC2main .sbSubmitButton {
+			border: 1px #ccc solid;
+			background-color: #f1f1f1;
+			padding: 5px; 
+			font-size: 15px;
+			color: #333;
+			-moz-border-radius: 5px;
+			-webkit-border-radius: 5px;
+			border-radius: 5px;
+		}
+		
+	/* Footer */
+	
+	#sbCC2footer {
+    	width: 890px;
+		padding: 10px;
+		text-align: center;
+		font-size: 11px;
+		color:#999;
+	}
+	
+		#sbCC2footer a {
+			color: #999;
+		}
+		
+		
+	/* Required or Asterisk */
+	
+	.sbRequired {
+		padding: 2px;
+		text-align: center;
+		font-size: 14px;
+		color:red;
+	}	
+	
+	.sbRequiredText {
+		border: 1px #ccc solid;
+		background-color: #E7ECFE;
+		padding: 5px;
+		margin: 10px 6px 6px 0px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+		font-size: 12px;
+		color:#666;
+	}	
+    
+    /* Other Styles */
+    .sbCC2subTotal {
+    	font-size: 24px;
+        margin: 10px 0;
+        padding-top: 10px;
+        border-top: 1px dashed #CCC;
+    }
+    
+    #cbGroup1Total {
+    	font-weight: bold;
+        padding-left: 10px;
+    }
+    
+		
+	/* Messages */
+	div#container {
+		width:800px;
+		margin:20px;
+		font-size: 14px;
+	}
+	div#container p {
+		padding: 5px 10px 5px 50px;
+		margin: 0;
+	}
+	div.message.success{
+		padding: 10px;
+		border: 2px solid #ADDAB5;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+		background: #C6FFA4 url(../images/sbCCicon_success.png) no-repeat 15px 10px;
+		font-weight: bold;
+	}
+	div.message.info{
+		padding: 10px;
+		border: 2px solid #D9E1FD;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+		background: #E7ECFE url(../images/sbCCicon_question.png) no-repeat 15px 10px;
+	}
+	div.message.question{
+		padding: 10px;
+		border: 2px solid #D9E1FD;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+		background: #E7ECFE url(../images/sbCCicon_question.png) no-repeat 15px 10px;
+	}
+	div.message.warning{
+		padding: 10px;
+		border: 2px solid #DDD;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+		background: #f1f1f1 url(../images/sbCCicon_warning.png) no-repeat 15px 10px;
+		font-weight: bold;
+	}
+	div.message.error{
+		padding: 10px;
+		border: 2px solid #DDD;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+		background: #f1f1f1 url(../images/sbCCicon_error.png) no-repeat 15px 10px;
+		font-weight: bold;
+	}
