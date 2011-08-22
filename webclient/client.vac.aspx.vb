@@ -38,7 +38,7 @@ Partial Class _client_vac
         If InStr(strResponse, "Success") Then
 
             'Dim strParam As String
-            'strParam = XMLExchangeObj.xEval(strResponse, "AddMeteredResponse/Ack")
+            'strParam = XMLExchangeObj.xEval(strResponse, "VerifyAccountCredentialsResponse/Ack")
             'Results.Text = strParam
 
             Results.Text = strResponse

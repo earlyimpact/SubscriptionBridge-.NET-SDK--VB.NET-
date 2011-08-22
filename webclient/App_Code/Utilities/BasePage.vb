@@ -14,7 +14,7 @@ Namespace SubscriptionBridge
         Protected Overrides Sub OnError(ByVal e As System.EventArgs)
 
             '// Redirect to Generic Error
-            Response.Redirect("/500.asp", False)
+            Response.Redirect("/500.aspx", False)
 
         End Sub
 

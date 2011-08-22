@@ -18,6 +18,13 @@
                 <li><a href="client.tw.aspx">Terms Widget (jQuery)</a></li>
                 <li><a href="client.twp.aspx">Terms Widget (Prototype)</a></li>
             </ul>
+
+            <h2>Authentication API</h2>
+			<ul>
+            	<li><a href="client.vac.aspx">Verify Account Credentials Request</a></li>
+                <li><a href="client.caa.aspx">Check Account Available Request</a></li>
+                <li><a href="client.mac.aspx">Modify Account Credentials Request</a></li>
+            </ul>
             
             <h2>Management API</h2>
 			<ul>

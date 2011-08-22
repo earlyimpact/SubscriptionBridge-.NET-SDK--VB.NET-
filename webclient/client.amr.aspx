@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="VB" MasterPageFile="~/UI.master" AutoEventWireup="false" CodeFile="client.amr.aspx.vb" Inherits="_client_amr" %>
+﻿<%@ Page Title="" validateRequest="false" Language="VB" MasterPageFile="~/UI.master" AutoEventWireup="false" CodeFile="client.amr.aspx.vb" Inherits="_client_amr" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>

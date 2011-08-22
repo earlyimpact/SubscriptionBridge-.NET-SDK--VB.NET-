@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="VB" MasterPageFile="~/UI.master" AutoEventWireup="true" CodeFile="client.vac.aspx.vb" Inherits="_client_vac" %>
+﻿<%@ Page Title="" validateRequest="false" Language="VB" MasterPageFile="~/UI.master" AutoEventWireup="true" CodeFile="client.vac.aspx.vb" Inherits="_client_vac" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
@@ -55,8 +55,7 @@
         </tr>
           <tr>
             <td colspan="2">
-                <asp:Button ID="Button1" runat="server" Text="Submit" class="sbFormButton" 
-                    onclick="Button1_Click1" />
+                <asp:Button ID="Button1" runat="server" Text="Submit" class="sbFormButton" />
             </td>
         </tr>
         <tr>
